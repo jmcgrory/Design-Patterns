@@ -1,0 +1,24 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Examples and exploration of Design Patterns",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3",
+    "typescript": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcgrory/Design-Patterns.git"
+  },
+  "author": "Jamie McGrory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcgrory/Design-Patterns/issues"
+  },
+  "homepage": "https://github.com/jmcgrory/Design-Patterns#readme"
+}
