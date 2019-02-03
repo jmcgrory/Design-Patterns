@@ -1,6 +1,6 @@
 # Design Patterns
 
-Personal reference of examples and descriptions of common design patterns.
+Personal reference of examples and descriptions of common design patterns and their use cases. Each pattern covered will include UML Diagram(s), an explanation of the rationale and an implementation of each pattern.
 
 ## Table of Contents
 
@@ -20,3 +20,8 @@ Personal reference of examples and descriptions of common design patterns.
 14. [Iterator Pattern](https://github.com/jmcgrory/Design-Patterns)
 15. [State Pattern](https://github.com/jmcgrory/Design-Patterns)
 16. [Null Object Pattern](https://github.com/jmcgrory/Design-Patterns)
+
+## Acknowledgements
+
+This repository was largely inspired by [Christopher Okhravi's series]
+(https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) on Design Patterns, which is based upon the O'Reilly series ["Head First Design Patterns"](https://www.amazon.co.uk/Head-First-Design-Patterns-Freeman/dp/0596007124).
