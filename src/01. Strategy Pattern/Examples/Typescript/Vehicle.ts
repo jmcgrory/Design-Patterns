@@ -1,14 +1,25 @@
-import Drives from './Interfaces/Drives';
+import DriveStrategy from './Interfaces/DriveStrategy';
+import OilChangeStrategy from "./Interfaces/OilChangeStrategy";
 
 /**
  * Base Vehicle Class
  */
 class Vehicle {
 
-    public drive: Drives;
+    // Driving Vehicle
+    public drive = (distance: number) => this.driveStrategy.execute(distance);
+    private driveStrategy: DriveStrategy;
 
-    public constructor(driveStrategy: Drives){
-        this.drive = driveStrategy;
+    // Change Vehicle Oil
+    public changeOil = () => this.changeOilStrategy.execute();
+    private changeOilStrategy: OilChangeStrategy;
+
+    public constructor(
+        driveStrategy: DriveStrategy,
+        changeOilStrategy: OilChangeStrategy
+    ){
+        this.driveStrategy = driveStrategy;
+        this.changeOilStrategy = changeOilStrategy;
     }
 
 }
