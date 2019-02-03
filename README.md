@@ -23,5 +23,4 @@ Personal reference of examples and descriptions of common design patterns and th
 
 ## Acknowledgements
 
-This repository was largely inspired by [Christopher Okhravi's series]
-(https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) on Design Patterns, which is based upon the O'Reilly series ["Head First Design Patterns"](https://www.amazon.co.uk/Head-First-Design-Patterns-Freeman/dp/0596007124).
+This repository was largely inspired by [Christopher Okhravi's series](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) on Design Patterns, which is based upon the O'Reilly series ["Head First Design Patterns"](https://www.amazon.co.uk/Head-First-Design-Patterns-Freeman/dp/0596007124).
