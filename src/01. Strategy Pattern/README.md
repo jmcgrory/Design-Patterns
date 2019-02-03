@@ -6,8 +6,8 @@ The **Strategy Pattern** focuses on the _composition_ of Object behaviour by all
 
 ### Rationale
 
-> "Define a family of algorithms, encapsulate each one, and make them interchange­able. Strategy lets the algorithm vary independently from clients that use it."  
-> **Design Patterns: Elements of Reusable Object-Oriented Software. (1995)**
+> **"Define a family of algorithms, encapsulate each one, and make them interchange­able. Strategy lets the algorithm vary independently from clients that use it."**  
+> _- Design Patterns: Elements of Reusable Object-Oriented Software. (1995)_
 
 By separating functionality from Class implementations into their own Behaviour Object. These behaviours can then be prescribed to Clients at runtime (i.e. via Interfaces). This allows each _"Client"_ (individual instances of Classes) to be configured via Dependency Injection to make use of the necessary Behaviour to meet their own contracts.
 
