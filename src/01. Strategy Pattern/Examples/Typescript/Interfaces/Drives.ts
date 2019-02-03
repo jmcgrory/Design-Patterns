@@ -1,8 +1,8 @@
 /**
  * Behaviour for Vehicle Driving
  */
-interface CanDrive {
+interface Drives {
     drive(distance: number): boolean;
 }
 
-export default CanDrive;
+export default Drives;
